@@ -3,17 +3,17 @@
     ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #00adb5;
+$primary-color              : #93c5fd;
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
-$light-primary-color        : mix(#000, $primary-color, 50%);
+$light-primary-color        : #cbd5e1;
 
-$background                 : #252a34;
+$background                 : #0f172a;
 $background-light           : mix(#fff, $background, 20%);
 $background-lighter         : mix(#fff, $background, 90%);
-$text                       : #eaeaea;
+$text                       : #e2e8f0;
 $link                       : mix($primary-color, $text, 40%);
-$link-dark                  : mix(#000, $link, 25%);
+$link-dark                  : #bfdbfe;
 $link-light                 : mix(#fff, $link, 25%);
 $footer                     : mix(#000, $background, 30%);
 
@@ -39,10 +39,10 @@ html[data-theme="dark"] {
     --global-base-color                 : #{$primary-color};
     --global-bg-color                   : #{$background};
     --global-footer-bg-color            : #{$footer};
-    --global-border-color               : #{$light-primary-color};
+    --global-border-color               : #334155;
     --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-primary-color};
+    --global-code-background-color      : #1e293b;
+    --global-code-text-color            : #e2e8f0;
     --global-fig-caption-color          : #{$light-primary-color};
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-dark};
