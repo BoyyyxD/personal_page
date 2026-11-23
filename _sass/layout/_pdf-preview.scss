@@ -1,0 +1,13 @@
+.paper-preview {
+  margin-top: 2em;
+
+  &__frame {
+    display: block;
+    width: 100%;
+    height: 75vh;
+    min-height: 20rem;
+    border: 1px solid var(--global-border-color);
+    border-radius: 4px;
+    background: var(--global-footer-bg-color);
+  }
+}

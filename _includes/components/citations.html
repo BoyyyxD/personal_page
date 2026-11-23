@@ -5,6 +5,9 @@ Recommended citation: {{ include.citation }}<br />
 <!-- Create the variable so it exists in the event there is no citation -->
 {% assign block = "" %}
 {% if include.paperurl %}
+{% if include.previewurl %}
+{% capture block %}{{ block }}<a href="{{ include.previewurl | relative_url }}#paper-preview">Read Paper</a> | {% endcapture %}
+{% endif %}
 {% assign paper_href = include.paperurl %}
 {% assign paper_first_character = paper_href | slice: 0, 1 %}
 {% if paper_first_character == '/' %}
