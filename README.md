@@ -1,4 +1,4 @@
-# Denis Savytski
+# Academic Website
 
 Personal academic website: [boyyyxd.github.io/personal_page](https://boyyyxd.github.io/personal_page/).
 

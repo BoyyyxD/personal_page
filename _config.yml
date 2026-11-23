@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Denis Savytski"
+title                    : "Your Name"
 title_separator          : "-"
-name                     : &name "Denis Savytski"
-description              : &description "Human-centered AI, multimodal AI, and agentic systems. Research by Denis Savytski at UC Davis."
+name                     : &name "Your Name"
+description              : &description "Human-centered AI, multimodal AI, and agentic systems. Research by Your Name at UC Davis."
 url                      : "https://boyyyxd.github.io"# The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "/personal_page" # the subpath of your site, e.g. "/blog"
@@ -23,21 +23,20 @@ repository               : "BoyyyxD/personal_page"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   avatar           : "profile.png"
-  name             : "Denis Savytski"
+  name             : "Your Name"
   bio              : "Human-centered AI, multimodal AI, and agentic systems"
   employer         : "UC Davis"
   uri              : "https://boyyyxd.github.io/personal_page/"
   email            : "dsavytski@ucdavis.edu"
   googlescholar    : "https://scholar.google.com/citations?user=oHKOTXgAAAAJ&hl=en"
-  # Add an ORCID URL when available; the supplied URL is the website above.
-  orcid            :
+  orcid            : "https://boyyyxd.github.io/personal_page/"
   github           : "BoyyyxD"
 
 publication_category:
   manuscripts:
-    title: 'Manuscripts'
+    title: 'Manuscripts Under Review'
   conferences:
-    title: 'Workshop Papers'
+    title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

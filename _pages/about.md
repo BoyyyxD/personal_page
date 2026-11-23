@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Denis Savytski"
+title: "Your Name"
 author_profile: true
 redirect_from:
   - /about/
