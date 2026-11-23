@@ -7,58 +7,49 @@ redirect_from:
   - /resume
 ---
 
+## Education
+
+**University of California, Davis** · September 2022 – May 2026<br>
+B.S. Computer Science; B.S. Statistics, Machine Learning Track<br>
+Dean’s Honor List, 2024–2026
+
+## Research experience
+
+**Research Collaborator, UC Davis, Computer Science** · January 2026 – present<br>
+Advisor: Professor Zhe Zhao. Research on social media agents, short-form video addiction, and creator-directed video generation.
+
+**Undergraduate Research Assistant, UC Davis, Computer Science** · April 2024 – January 2026<br>
+Advisor: Professor Xin Liu. Projects on LLM coding-agent adaptation, almond-yield forecasting, and EEG-based Alzheimer’s disease classification.
+
+## Industry experience
+
+- **Amazon Web Services, Software Development Engineer** · May 2026 – present
+- **Amazon Web Services, Software Development Engineer Intern** · June – September 2025
+- **NightHawk Robotics, Machine Learning Engineer Intern** · June – September 2024
+- **UC Davis Web Development Team, Full-Stack Developer** · January 2023 – June 2025
+- **Verdant Robotics, Software Engineer Intern** · May 2022 – January 2023
+
+## Publications and manuscripts
+
 {% include base_path %}
+<ul>
+{% for post in site.publications reversed %}
+  <li>{{ post.citation }} <a href="{{ post.url | relative_url }}">Paper details and download</a></li>
+{% endfor %}
+</ul>
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+[Read and download papers]({{ '/publications/' | relative_url }})
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Presentations
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **Google, invited online team talk** · September 2026. Studying short-form video addiction through social media agents.
+- **Workshop on Human-AI Co-Creativity, ICML 2026** · Seoul, South Korea. Lightning talk and poster presentation of CHIEF.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Teaching
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Teaching Assistant / Grader, STA 142A: Statistical Learning** · Spring 2025<br>
+UC Davis, Department of Statistics.
+
+## Technical skills
+
+Python, R, C/C++, C#, Go, Java, JavaScript; PyTorch, TensorFlow, scikit-learn, NumPy, and Pandas.
