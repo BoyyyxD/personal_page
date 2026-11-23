@@ -1,0 +1,17 @@
+{% if include.paperurl %}
+  {% assign preview_href = include.paperurl %}
+  {% assign preview_first_character = preview_href | slice: 0, 1 %}
+  {% if preview_first_character == '/' %}
+    {% assign preview_href = preview_href | relative_url %}
+  {% endif %}
+  <section class="paper-preview" aria-labelledby="paper-preview">
+    <h2 id="paper-preview">Read the paper</h2>
+    <p><a href="{{ preview_href | escape }}" target="_blank" rel="noopener">Open PDF in a new tab</a>. If the preview is unavailable on your device, use this link or download the paper above.</p>
+    <iframe
+      class="paper-preview__frame"
+      src="{{ preview_href | escape }}#view=FitH"
+      title="PDF preview: {{ include.title | escape }}"
+      loading="lazy">
+    </iframe>
+  </section>
+{% endif %}
